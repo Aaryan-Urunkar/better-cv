@@ -9,7 +9,6 @@
 }
 .top-container{
     display: inline;
-    
 }
 .ground{
     height:100px;
@@ -140,4 +139,7 @@ h3{
   }
   .footer-link{
     margin-top: 20px;
+  }
+  .middle-container{
+    overflow-x:hidden;
   }
