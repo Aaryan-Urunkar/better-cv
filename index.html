@@ -21,11 +21,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/favicon.ico">
     <title>AARYAN URUNKAR</title>
 </head>
 <body>
+    <nav>
+      <p>PERSONAL PORTFOLIO</p>
+      <ul>
+        <li><a href="#section2"><span>Welcome</span></a></li>
+        <li><a href="#section3"><span>My skills</span></a></li>
+        <li><a href="#section4"><span>Contact me</span></a></li>
+        <li><a href="https://github.com/Aaryan-Urunkar/better-cv" id="finalOption"><span>Source code</span></a></li>
+      </ul>
+    </nav>
     <div class="top-container">
         <img src="images/Picture1.png" alt="moon-png" class="moon_img"> 
         <img src="images/cloud.png" alt="cloud-img" style="margin-left: 300px;" class="cloud1">
@@ -37,14 +52,14 @@
         <img src="images/flag.png" alt="flag-img" style="position: absolute; right: 100px; top:700px;">
     </div>
     <div class="ground"></div>
-    <hr style="margin-top: 30px; margin-bottom: 30px;">
-    <div class="middle-container">
+    <hr style="margin-top: 30px; margin-bottom: 30px;" id="section2">
+    <div class="middle-container" >
         <div class="profile">
           <img src="images/Aaryan.png" alt="My-photo" style="padding-top: 25px;">
           <h2><span class="Profile-text">Hello.</span></h2>
           <p>Welcome to my profile.</p>
         </div>
-        <hr>
+        <hr id="section3">
         <div class="skills">
           <h2 class="skills-bar">My Skills</h2>
           <div class="skill-row">
@@ -72,7 +87,7 @@
             </p>
         </div>
       </div>
-      <hr>
+      <hr id="section4">
       <div class="bottom-container">
         <div class="contact-me">
           <h2>Get In Touch</h2>
@@ -87,5 +102,12 @@
         <a class="footer-link" href="https://www.instagram.com/realaaryanurunkar/"><img src="images/instagram.png" alt="instagram-img"></a>
         <p>© 2023 Aaryan Urunkar.</p>
       </div>
-</body>
+    <script>
+      var a=document.querySelector("nav ul #finalOption");
+      function displayOption(){
+        a.style.display="inline";
+      }
+      setTimeout(displayOption,3000);
+    </script>
+  </body>
 </html>
