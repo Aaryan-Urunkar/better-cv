@@ -24,10 +24,13 @@ nav ul a span{
 }
 nav p{
     display:inline-block;
-    font-family: 'Orbitron', sans-serif;
-    font-size:25px;
+    /*font-family: 'Orbitron', sans-serif;*/
+    font-family: 'Amatic SC', sans-serif;
+    font-weight:bold;
+    font-size:30px;
     color:black;
-    margin:1% 35% 0 0;
+    margin:1% 40% 0% 0%;
+    padding-right:5%;
 }
 .moon_img{
     position: relative;
